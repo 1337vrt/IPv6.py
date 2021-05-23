@@ -30,7 +30,7 @@ OPTIONS :
 
 def check_root():
  if os.geteuid() != 0:
-    print("You need to run this programm as 'sudo'")
+    print("You need to run this program as 'sudo'")
     exit()
 
 def conf_dis():
