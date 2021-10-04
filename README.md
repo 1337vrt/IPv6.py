@@ -9,5 +9,11 @@ sudo ./install.sh
 ```
 ## Usage
 ```bash
-sudo ipv6 -h | -d | -e | -p
+USAGE : ipv6 [-h] -d | -e | -p
+To disable IPv6 permanently : sudo ipv6 -p
+OPTIONS :
+  -h       Show this help message and exit
+  -d       Disable IPv6 temporarily
+  -e       Enable IPv6 temporarily
+  -p       Disable IPv6 permanently
 ```
